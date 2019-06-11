@@ -1,0 +1,122 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/splash_screen"-->
+    <!--android:layout_gravity="center"-->
+    <!--tools:context=".SplashActivity">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_logo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="120dp"-->
+        <!--android:scaleX="0.8"-->
+        <!--android:scaleY="0.8"-->
+        <!--android:src="@mipmap/logo" />-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:adjustViewBounds="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/iv_logo"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@mipmap/logo" />&ndash;&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_paramount"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:text="paramount"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@id/iv_logo"-->
+        <!--style="@style/styleTextdomineBold"-->
+        <!--android:textSize="28sp"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"-->
+
+        <!--android:layout_below="@id/tv_paramount"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<View-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_toLeftOf="@id/tv_type"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:layout_marginRight="2dp"-->
+            <!--android:layout_alignBottom="@id/tv_type"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:background="@android:color/white"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/tv_type"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:text="MIDDLE EASTERN CUISINE"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--style="@style/styleTextdomineRegular"-->
+        <!--android:textSize="18sp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_height="wrap_content"/>-->
+        <!--<View-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_toRightOf="@id/tv_type"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_alignBottom="@id/tv_type"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:background="@android:color/white"/>-->
+    <!--</RelativeLayout>-->
+<!--</RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRel"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/splash_screen_bg">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo" />
+
+        <com.application.paramountfinefoods.utils.DominoBoldTextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+        <com.application.paramountfinefoods.utils.DominoBoldTextView
+
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_gravity="center"
+            android:text="@string/subTitle"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

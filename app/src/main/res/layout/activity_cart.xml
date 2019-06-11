@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".CartActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_above="@id/layout_actions"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/layout_cart_list"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="#Order Number - 123\nOrder By - Nilay Sheth\nEmail - \nnilaysheth09@gmail.com"
+            android:textAlignment="center"
+            style="@style/styleTextdomineColorPrimary"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:id="@+id/view_0"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:text="MIXED BBQ PACKAGE\n(Paramount Meal)"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="$0.00"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:text="Chicken Shawarma\nPackage\n(Paramount Feast)"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="$0.00"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_4"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:text="FRENCH FRIES"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="$0.00"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_6"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+        <View
+            android:id="@+id/view_7"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:text="PARAMOUNT BREAD"
+            android:textAlignment="center"
+            style="@style/styleTextdomineColorPrimary"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="$0.00"
+                android:textAlignment="center"
+                style="@style/styleTextdomineColorPrimary"
+                android:padding="15dp"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/view_8"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="3dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Total - $0.00"
+            android:textAlignment="center"
+            style="@style/styleTextdomineColorPrimary"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/view_10"
+            android:layout_width="match_parent"
+            android:background="@android:color/black"
+            android:layout_height="3dp"/>
+</LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:id="@+id/layout_actions"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_decline"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/view_2"
+            android:text="Decline"
+            android:textAlignment="center"
+            style="@style/styleTextdomineBold"
+            android:padding="15dp"
+            android:background="@drawable/radius_border"
+            android:textSize="24sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/view_2"
+            android:text="Confirm"
+            android:textAlignment="center"
+            style="@style/styleTextdomineBold"
+            android:padding="15dp"
+            android:background="@drawable/radius_border"
+            android:textSize="24sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Paramount Restro</string>
+    <string name="title">paramount</string>
+    <string name="subTitle">___MIDDLE EASTON CUISINE___</string>
+
+
+    // registration and login strings
+    <string name="exitsuser">I am an existing user</string>
+    <string name="newuser">I am a new user</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_email">Confirm Email Id</string>
+    <string name="newuser_1">Sorry new user?</string>
+    <string name="register_user_1">Already an existing user?</string>
+    <string name="signin">Sign In</string>
+
+
+    // drawer
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    // btn text
+
+    <string name="btn_locationChange">Choose Location</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="google_maps_key">AIzaSyBYUMeEf3e88K2HgM4Rk9-E3L1bRQkoMME</string>
+
+    <string name="default_pack">Paramount Package</string>
+    <string name="custom_pack">Build Your Own</string>
+    <string name="slide">Slides</string>
+    <string name="souces">Sauces</string>
+
+
+    <string name="txt_login">LOGIN</string>
+
+    <!--<string name="app_name">Paramount Fine Foods</string>-->
+
+    <string name="title_activity_home">Home</string>
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>-->
+
+    <!--<string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+    <string name="nav_header_title">Paramount Fine Foods</string>
+
+    <string name="nav_header_subtitle">MIDDLE EATERN CUISINE</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+
+    -
+    <string-array name="filter">
+
+        <item>5 days</item>
+
+        <item>10 days</item>
+
+        <item>15 days</item>
+
+        <item>30 days</item>
+
+    </string-array>
+
+</resources>
